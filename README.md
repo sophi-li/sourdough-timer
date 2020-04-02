@@ -1,4 +1,4 @@
-<h1 align="center">Create a Sourdough Text Message Reminder with Azure's Timer Trigger Function and Twilio SMS</h1>
+<h1 align="center">Create a Sourdough Starter Text Message Reminder with Azure's Timer Trigger Function and Twilio SMS</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://twitter.com/sophia_wyl">
@@ -14,7 +14,10 @@ Language: JavaScript
 
 Products: Azure Functions Timer Trigger, Visual Studio Code, Twilio SMS
 
-## Prerequisites
+## Features
+- Text message reminders with custom message and timing using [Azure Timer Trigger](https://azure.microsoft.com/en-us/free/) and [Twilio](www.twilio.com/referral/QYHnll)
+
+## Prerequisites 
 
 ### Sign up for Microsoft Azure account
 
@@ -31,6 +34,9 @@ We'll use the [Azure extension](https://code.visualstudio.com/docs/azure/extensi
 ## Tutorial
 
 You can find a full tutorial on how to create this text message reminder app in my [Dev blog](https://dev.to/sophia_wyl).
+
+## License
+[MIT](https://github.com/sophi-li/sourdough-timer/blob/master/LICENSE)
 
 ## Author
 
