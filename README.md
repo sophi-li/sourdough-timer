@@ -33,7 +33,7 @@ We'll use the [Azure extension](https://code.visualstudio.com/docs/azure/extensi
 
 ## Tutorial
 
-You can find a full tutorial on how to create this text message reminder app in my [Dev blog](https://dev.to/sophia_wyl).
+You can find a full tutorial on how to create this text message reminder app in my blog post, [So You Forgot to Feed Your Sourdough Starter Baby? 🍞👶](https://dev.to/sophia_wyl/so-you-forgot-to-feed-your-sourdough-starter-baby-1g8c)
 
 ## License
 [MIT](https://github.com/sophi-li/sourdough-timer/blob/master/LICENSE)
