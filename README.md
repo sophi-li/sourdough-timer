@@ -15,7 +15,7 @@ Language: JavaScript
 Products: Azure Functions Timer Trigger, Visual Studio Code, Twilio SMS
 
 ## Features
-- Text message reminders with custom message and timing using [Azure Timer Trigger](https://azure.microsoft.com/en-us/free/?http://WT.mc_id=breadsoph-github-chcondon) and [Twilio](www.twilio.com/referral/QYHnll)
+- Text message reminders with custom message and timing using [Azure Timer Trigger](https://azure.microsoft.com/en-us/free/?http://WT.mc_id=breadsoph-github-chcondon) and [Twilio](https://www.twilio.com/referral/QYHnll)
 
 ## Prerequisites 
 
@@ -25,7 +25,7 @@ We'll use a [free Azure subscription](https://azure.microsoft.com/en-us/free/?ht
 
 ### Sign up for Twilio and get a phone number.
 
-We'll use [Twilio's free trial](www.twilio.com/referral/QYHnll) so we can get a number and use Twilio's API to text ourselves.
+We'll use [Twilio's free trial](https://www.twilio.com/referral/QYHnll) so we can get a number and use Twilio's API to text ourselves.
 
 ### Download Visual Studio Code and the Azure Extension
 
