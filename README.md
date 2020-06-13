@@ -14,6 +14,8 @@ Language: JavaScript
 
 Products: Azure Functions Timer Trigger, Visual Studio Code, Twilio SMS
 
+![](SMS-screenshot.jpeg)
+
 ## Features
 
 - Text message reminders with custom message and timing using [Azure Timer Trigger](https://azure.microsoft.com/en-us/free/?http://WT.mc_id=breadsoph-github-chcondon) and [Twilio](https://www.twilio.com/referral/QYHnll)
