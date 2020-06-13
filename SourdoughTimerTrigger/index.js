@@ -3,7 +3,7 @@ const accountSid = process.env.TWILIO_SID;
 const authToken = process.env.TWILIO_TOKEN;
 const client = require("twilio")(accountSid, authToken);
 
-module.exports = async function(context, myTimer) {
+module.exports = function (context, myTimer) {
   var timeStamp = new Date().toISOString();
 
   if (myTimer.isPastDue) {
@@ -16,22 +16,21 @@ module.exports = async function(context, myTimer) {
     .create({
       from: process.env.SENDER_NUMBER,
       body: "Don't forget to feed me!",
-      to: process.env.RECIPIENT_NUMBER
+      to: process.env.RECIPIENT_NUMBER,
     })
-    .then(message => {
+    .then((message) => {
       context.log("Message sent");
       context.res = {
         // status: 200, /* Defaults to 200 */
-        body: "Text successfully sent"
+        body: "Text successfully sent",
       };
-      context.log("JavaScript timer trigger function ran!", timeStamp);
       context.done();
     })
-    .catch(err => {
+    .catch((err) => {
       context.log.error("Twilio Error: " + err.message + " -- " + err.code);
       context.res = {
         status: 500,
-        body: `Twilio Error Message: ${err.message}\nTwilio Error code: ${err.code}`
+        body: `Twilio Error Message: ${err.message}\nTwilio Error code: ${err.code}`,
       };
       context.done();
     });
