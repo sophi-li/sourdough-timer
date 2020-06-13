@@ -4,7 +4,7 @@ const authToken = process.env.TWILIO_TOKEN;
 const client = require("twilio")(accountSid, authToken);
 
 module.exports = function (context, myTimer) {
-  var timeStamp = new Date().toISOString();
+  let timeStamp = new Date().toISOString();
 
   if (myTimer.isPastDue) {
     context.log("JavaScript is running late!");
