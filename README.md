@@ -8,7 +8,7 @@
 
 ## Overview
 
-> Sourdough bread is made with flour, water, and starter. Starter is a live wild yeast that's made out of flour, water, and air. Unfortunately, if starter is not fed (with water and flour) regularly, it will not activate and we won't be able to make bread. And if we neglect it long enough, then, it'll die. That's why I made a text message reminder so I don't forget to feed my starter!
+> Sourdough bread is made with flour, water, and starter. Starter is a live wild yeast that's made out of flour, water, and air. Unfortunately, if starter is not fed (with water and flour) regularly, it will not activate and we won't be able to make bread. And if we neglect it long enough, then, it'll die. This app allows us to set up automatic text message reminders so we don't forget to feed our starter!
 
 Language: JavaScript
 
